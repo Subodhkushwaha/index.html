@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <style>
+        *{
+            /* overflow:visible; */
+            /* position:absolute; */
+            /* justify-content:center; */
+
+        }
+        .containar5{
+            display:flex;
+            flex-direction:column;
+            /* justify-content:left;
+            align-items:center; */
+        }
+        .containar6{
+            display:flex;
+            flex-direction:column;
+            /* justify-content:left;
+            align-items:center; */
+        }
+        .original2{
+            display:flex;
+             /* height:100vh; */
+            /* width:100vw;  */
+        }
+        .controler{
+            display:flex;
+            height:100vh;
+            width: 100vw;
+            justify-content:center;
+            align-items:center;
+            position:absolute;
+        }
+        
+        .mainbox{
+            
+            height:900px;
+            width:900px;
+
+            
+            /* width: 800px; */
+            background-color:rgb(178, 198, 232);
+            border:rgb(227, 204, 204) solid 5px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:brown;
+            /* column-gap: 100px; */
+        }
+        .maincontainars{
+            /* column-gap: 100px; */
+            /* background-color: blue; */
+            bordor:solid black 5px;
+            height:100vh;
+            width:100vw;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            position:absolute;
+            
+        }
+        
+        .sidecontainar1{
+            height:400px;
+            width:400px;
+            background-color:blueviolet;
+            justify-content: left;
+            transition-duration: 1s;
+            transition-timing-function:1 ;
+            transition-delay: 0s;
+            transition-timing-function: ease-out;
+            
+        }
+        .sidecontainar1:hover{
+            transform:translate(-300px,-300px);   
+        }
+        .sidecontainar2{
+            height:400px;
+            width:400px;
+            background-color:rgb(155, 151, 158);
+            justify-content: left;
+            transition-duration: 1s;
+        }
+        .sidecontainar2:hover{
+        transform:translate(-300px,300px);
+        }
+        .sidecontainar3{
+            height:400px;
+            width:400px;
+            background-color:brown;
+            justify-content: left;
+            transition-duration: 1s;
+        }
+        .sidecontainar3:hover{
+            transform:translate(300px,-300px);
+        }
+        .sidecontainar4{
+            height:400px;
+            width:400px;
+            background-color:rgb(225, 204, 204);
+            justify-content: left;
+            transition-duration: 1s;
+        }
+        .sidecontainar4:hover{
+            transform:translate(300px,300px);
+        }
+        /* .mains{
+            height:100vh;
+            width: 100vw;
+            justify-content:center;
+            align-items:center;
+            transition-duration: 1s;
+        }
+        .mains:hover{
+            transform:translate(-500px,-500px);
+        } */
+    </style>
+</head>
+<body>
+
+
+    <div class="original1">
+    <div class="maincontainars">
+        <div class="mainbox">
+            <h1>happy Birthday</h1>
+            <h1>x.y.z.....</h1>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="mains">
+<div class="controler">
+    <div class="original2">
+        <div class="containar5">
+
+            <div class="sidecontainar1">
+                <p>side containar 1</p>
+            </div>
+
+            <div class="sidecontainar2">
+                <p>side containar 2</p>
+            </div>
+        </div>
+        <div class="containar6">
+            <div class="sidecontainar3">
+                <p>side containar 3</p>
+            </div>
+
+            <div class="sidecontainar4">
+                <p>side containar 4</p>
+            </div>        
+        </div>
+    
+</div>
+</div>
+</div>
+</body>
+</html>
